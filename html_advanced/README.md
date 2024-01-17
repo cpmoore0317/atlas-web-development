@@ -32,6 +32,8 @@
 - Attributes provide additional information about HTML elements.
   They are always included in the opening tag and are used to modify or provide more details about the element.
 
+![Wireframe example](atlas-web-development/html_advanced/HTML, advenced wirefram.jpg)
+
 **Purpose of HTML Tags:**
 
 - Tags define the structure and content of a webpage.
