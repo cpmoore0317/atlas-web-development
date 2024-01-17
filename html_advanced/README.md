@@ -38,4 +38,4 @@
   They include headings (`<h1>`, `<h2>`), paragraphs (`<p>`), images (`<img>`), links (`<a>`), lists (`<ul>`, `<ol>`), and more.
   Each tag serves a specific purpose in organizing and presenting content on the web.
 
-![Wireframe example](atlas-web-development/htmladvancedwireframe.jpg)
+![Wireframe example](htmladvancedwirefram.jpg)
