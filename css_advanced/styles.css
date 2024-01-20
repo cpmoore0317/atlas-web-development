@@ -75,7 +75,13 @@ section {
 }
 
 h2 {
-  color: #007bff;
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 h3 {
