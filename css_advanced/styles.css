@@ -109,6 +109,15 @@ button {
   padding: 10px 15px;
   border: none;
   cursor: pointer;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 22px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Section with images and titles */
