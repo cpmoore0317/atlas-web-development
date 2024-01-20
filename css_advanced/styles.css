@@ -1,0 +1,123 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+blockquote,
+ul,
+ol,
+li,
+figure,
+figcaption,
+div,
+img,
+a,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Apply a box-sizing border-box model to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+h3 {
+  color: #333;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Section with images and titles */
+section > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+}
