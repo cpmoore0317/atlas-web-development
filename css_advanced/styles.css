@@ -156,6 +156,45 @@ button {
   margin-top: 50px;
 }
 
+/* Styles for the quote section */
+.quote-section {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.quote-section div {
+  flex: 1;
+}
+
+.quote-content {
+  flex: 2;
+  padding-left: 20px; /* Add some left padding to create space between the image and text */
+}
+
+.quote-section img {
+  margin-right: 20px; /* Adjust the margin to move the image more to the right */
+}
+
+blockquote {
+  color: #333;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.quote-content p {
+  color: #333;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
 /* Section with images and titles */
 section > div > div {
   display: flex;
