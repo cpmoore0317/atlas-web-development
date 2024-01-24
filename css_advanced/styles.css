@@ -82,11 +82,17 @@ h1 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 90px;
 }
 
 h2 {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+h2 div img {
+  border-radius: 50%;
 }
 
 h2 span.learn {
@@ -110,6 +116,11 @@ h2 span.from-the-pros {
 
 h3 {
   color: #333;
+}
+
+h3.pros,
+p {
+  text-align: center;
 }
 
 p.smiles-grin-laugh {
