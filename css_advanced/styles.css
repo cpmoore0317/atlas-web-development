@@ -169,11 +169,11 @@ button {
 
 .quote-content {
   flex: 2;
-  padding-left: 20px; /* Add some left padding to create space between the image and text */
+  padding-left: 20px;
 }
 
 .quote-section img {
-  margin-right: 20px; /* Adjust the margin to move the image more to the right */
+  margin-right: 20px;
 }
 
 blockquote {
