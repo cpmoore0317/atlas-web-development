@@ -196,6 +196,57 @@ blockquote {
   margin-bottom: 10px;
 }
 
+/* Video tutorials styling */
+.tutorial-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tutorial-card {
+  width: calc(25% - 20px); /* 25% width with 20px spacing between cards */
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.tutorial-card img {
+  width: 100%;
+  height: auto;
+}
+
+.tutorial-card h3,
+.tutorial-card p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.author-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
 /* Section with images and titles */
 section > div > div {
   display: flex;
