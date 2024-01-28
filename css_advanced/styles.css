@@ -39,7 +39,6 @@ button {
 /* Body styles */
 body {
   line-height: 1.6;
-  color: #333;
   background-image: url("images/Figma\ Background\ for\ CSS\,\ advanced.png");
   background-size: 1555px 1055px; /* Adjust as needed */
   background-position: center top; /* Adjust as needed */
@@ -58,6 +57,8 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 
 header img {
@@ -125,6 +126,15 @@ h2 span.from-the-pros {
   line-height: normal;
 }
 
+.pros-container {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.pros-container div img {
+  border-radius: 50%;
+}
+
 h3 {
   color: #fff;
 }
@@ -166,7 +176,7 @@ button {
   border-radius: 22px;
   display: block;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 /* Quote section styles*/
@@ -174,6 +184,9 @@ button {
   display: flex;
   align-items: center;
   margin-top: 200px;
+  background-color: #C271FF;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .quote-section div {
@@ -190,7 +203,7 @@ button {
 }
 
 blockquote {
-  color: #333;
+  color: #fff;
   font-size: 18px;
   font-style: italic;
   font-weight: 700;
@@ -198,7 +211,7 @@ blockquote {
 }
 
 .quote-content p {
-  color: #333;
+  color: #fff;
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
@@ -217,7 +230,7 @@ blockquote {
   width: calc(25% - 20px);
   /* 25% width with 20px spacing between cards */
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #fff;
   margin-bottom: 20px;
 }
 
@@ -259,11 +272,11 @@ blockquote {
 }
 
 /* Membership section styles */
-span.free-span {
+.free-span {
   color: #C271FF;
 }
 
-span.membership-span {
+.membership-span {
   color: #fff;
 }
 
@@ -278,7 +291,6 @@ span.membership-span {
 
 .membership-card {
   width: 23%; /* Adjust as needed */
-  background-color: #f9f9f9;
   padding: 20px;
   margin-bottom: 20px;
   background-color: #071629;
@@ -304,7 +316,7 @@ span.membership-span {
 /* Styling individual FAQ items */
 .faq-grid div {
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 .faq-grid h3 {
