@@ -29,11 +29,11 @@ button {
 /* Linking and using correct project font */
 @font-face {
   font-family: "Source Sans Pro";
-  src: url(../css_advanced/SourceSansPro-Regular.otf) format('opentype');
+  src: url(../css_advanced/SourceSansPro-Regular.otf) format("opentype");
 }
 
 * {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
 }
 
 /* Body styles */
@@ -204,7 +204,8 @@ blockquote {
 }
 
 .tutorial-card {
-  width: calc(25% - 20px); /* 25% width with 20px spacing between cards */
+  width: calc(25% - 20px);
+  /* 25% width with 20px spacing between cards */
   padding: 20px;
   background-color: #f9f9f9;
   margin-bottom: 20px;
