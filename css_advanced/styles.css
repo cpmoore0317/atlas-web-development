@@ -28,7 +28,7 @@ button {
 
 /* Linking and using correct project font */
 @font-face {
-  font-family: "Sans Source Pro";
+  font-family: "Source Sans Pro";
   src: url(../css_advanced/SourceSansPro-Regular.otf) format('opentype');
 }
 
