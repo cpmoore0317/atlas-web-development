@@ -40,6 +40,11 @@ button {
 body {
   line-height: 1.6;
   color: #333;
+  background-image: url("images/Figma\ Background\ for\ CSS\,\ advanced.png");
+  background-size: 1555px 1055px; /* Adjust as needed */
+  background-position: center top; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+  flex-shrink: 0;
 }
 
 /* Header styles */
@@ -69,13 +74,14 @@ nav a {
   flex-shrink: 0;
   margin-right: 20px;
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-weight: bold;
 }
 
 /* Main styles */
 main {
   padding: 20px;
+  margin-top: 100px;
 }
 
 section {
@@ -83,7 +89,7 @@ section {
 }
 
 h1 {
-  color: #333;
+  color: #fff;
   text-align: center;
   font-size: 120px;
   font-style: normal;
@@ -112,7 +118,7 @@ h2 span.learn {
 }
 
 h2 span.from-the-pros {
-  color: #333;
+  color: #fff;
   font-size: 32px;
   font-style: normal;
   font-weight: 300;
@@ -120,7 +126,7 @@ h2 span.from-the-pros {
 }
 
 h3 {
-  color: #333;
+  color: #fff;
 }
 
 h3.pros,
@@ -128,8 +134,12 @@ p {
   text-align: center;
 }
 
-p.smiles-grin-laugh {
-  color: #333;
+.pros-quote {
+  color: #fff;
+}
+
+.smiles-grin-laugh {
+  color: #fff;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -159,11 +169,11 @@ button {
   margin-top: 50px;
 }
 
-/* Styles for the quote section */
+/* Quote section styles*/
 .quote-section {
   display: flex;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 200px;
 }
 
 .quote-section div {
@@ -246,6 +256,28 @@ blockquote {
   width: 20px;
   height: 20px;
   margin-right: 5px;
+}
+
+/* Membership section styles */
+.membership-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.membership-card {
+  width: 23%; /* Adjust as needed */
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.membership-card img {
+  width: 100%;
+  height: auto;
+}
+
+.membership-text {
+  text-align: center;
 }
 
 /* Section with images and titles */
