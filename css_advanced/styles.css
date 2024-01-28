@@ -259,6 +259,18 @@ blockquote {
 }
 
 /* Membership section styles */
+span.free-span {
+  color: #C271FF;
+}
+
+span.membership-span {
+  color: #fff;
+}
+
+.membership {
+  background-color: #071629;
+  padding-bottom: 30px;
+}
 .membership-section {
   display: flex;
   justify-content: space-between;
@@ -269,6 +281,8 @@ blockquote {
   background-color: #f9f9f9;
   padding: 20px;
   margin-bottom: 20px;
+  background-color: #071629;
+  color: #fff;
 }
 
 .membership-card img {
@@ -278,6 +292,27 @@ blockquote {
 
 .membership-text {
   text-align: center;
+}
+
+/* FAQ section styles */
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; /* Adjust spacing between grid items */
+}
+
+/* Styling individual FAQ items */
+.faq-grid div {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.faq-grid h3 {
+  color: #333;
+}
+
+.faq-grid p {
+  color: #666;
 }
 
 /* Section with images and titles */
@@ -295,7 +330,7 @@ section img {
 
 /* Footer styles */
 footer {
-  background-color: #333;
+  background-color: #071629;
   color: #fff;
   padding: 20px;
   text-align: center;
