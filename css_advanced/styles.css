@@ -133,6 +133,7 @@ h2 span.from-the-pros {
 
 .pros-container div img {
   border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h3 {
@@ -177,6 +178,7 @@ button {
   display: block;
   margin: 0 auto;
   margin-top: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Quote section styles*/
@@ -200,6 +202,8 @@ button {
 
 .quote-section img {
   margin-right: 20px;
+  margin-left: 350px;
+  border-radius: 50%;
 }
 
 blockquote {
