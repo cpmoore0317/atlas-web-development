@@ -1,4 +1,5 @@
 /* Reset some default browser styles */
+
 body,
 h1,
 h2,
@@ -20,6 +21,7 @@ button {
 }
 
 /* Apply a box-sizing border-box model to all elements */
+
 *,
 *::before,
 *::after {
@@ -27,6 +29,7 @@ button {
 }
 
 /* Linking and using correct project font */
+
 @font-face {
   font-family: "Source Sans Pro";
   src: url(../css_advanced/SourceSansPro-Regular.otf) format("opentype");
@@ -37,6 +40,7 @@ button {
 }
 
 /* Body styles */
+
 body {
   line-height: 1.6;
   background-image: url("images/Figma\ Background\ for\ CSS\,\ advanced.png");
@@ -47,6 +51,7 @@ body {
 }
 
 /* Header styles */
+
 header {
   background-color: transparent;
   padding: 10px;
@@ -81,6 +86,7 @@ nav a {
 }
 
 /* Main styles */
+
 main {
   padding: 20px;
   margin-top: 100px;
@@ -183,11 +189,12 @@ button {
 }
 
 /* Quote section styles*/
+
 .quote-section {
   display: flex;
   align-items: center;
   margin-top: 200px;
-  background-color: #C271FF;
+  background-color: #c271ff;
   padding-bottom: 100px;
   padding-top: 100px;
 }
@@ -226,6 +233,7 @@ blockquote {
 }
 
 /* Video tutorials styling */
+
 .tutorial-cards {
   display: flex;
   justify-content: space-between;
@@ -278,12 +286,22 @@ blockquote {
 }
 
 /* Membership section styles */
+
 .free-span {
-  color: #C271FF;
+  color: #c271ff;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .membership-span {
   color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 .membership {
@@ -303,7 +321,7 @@ blockquote {
 }
 
 .membership-card {
-  width: 23%; /* Adjust as needed */
+  width: 23%;
   padding: 20px;
   margin-bottom: 20px;
   background-color: #071629;
@@ -312,9 +330,9 @@ blockquote {
 }
 
 .svg-container {
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100px; /* Adjust as needed */
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
 
 .svg-container svg {
@@ -340,10 +358,11 @@ blockquote {
 .faq-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 40px; /* Adjust spacing between grid items */
+  grid-gap: 40px;
 }
 
 /* Styling individual FAQ items */
+
 .faq-grid div {
   padding: 20px;
   background-color: #fff;
@@ -360,11 +379,12 @@ blockquote {
 }
 
 .faq-grid p {
-  color: rgba(7, 22, 41, 0.50);;
+  color: rgba(7, 22, 41, 0.5);
   text-align: left;
 }
 
 /* Section with images and titles */
+
 section > div > div {
   display: flex;
   flex-wrap: wrap;
@@ -378,6 +398,7 @@ section img {
 }
 
 /* Footer styles */
+
 footer {
   background-color: #071629;
   color: #fff;
@@ -392,6 +413,7 @@ footer img {
 }
 
 /* Responsive styles */
+
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
