@@ -222,6 +222,7 @@ blockquote {
   font-weight: 300;
   line-height: normal;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 /* Video tutorials styling */
