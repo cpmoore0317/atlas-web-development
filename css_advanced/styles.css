@@ -216,11 +216,9 @@ button {
 
 .quote-content {
   flex: 2;
-  padding-left: 20px;
 }
 
 .quote-section img {
-  margin-right: 20px;
   margin-left: 350px;
   border-radius: 50%;
 }
@@ -235,12 +233,34 @@ blockquote {
 
 .quote-content p {
   color: #fff;
-  font-size: 14px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
   margin-bottom: 10px;
   text-align: left;
+}
+
+blockquote p {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px; /* 152.727% */
+}
+
+#person {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.6px; /* 152.727% */
+}
+
+#weather {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.6px; /* 152.727% */
 }
 
 /* Video tutorials styling */
