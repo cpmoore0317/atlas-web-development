@@ -286,8 +286,20 @@ blockquote p {
 
 .tutorial-card h3,
 .tutorial-card p {
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
+}
+
+.most-popular-tutorials {
+  margin-top: 100px;
+}
+
+.tutorial-card h3 {
+  color: #071629;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .author-info {
