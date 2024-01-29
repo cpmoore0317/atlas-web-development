@@ -327,10 +327,20 @@ blockquote {
 }
 
 /* FAQ section styles */
+
+.faq-section h2 {
+  color: #071629;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
 .faq-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px; /* Adjust spacing between grid items */
+  grid-gap: 40px; /* Adjust spacing between grid items */
 }
 
 /* Styling individual FAQ items */
@@ -340,11 +350,18 @@ blockquote {
 }
 
 .faq-grid h3 {
-  color: #333;
+  color: #071629;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
 }
 
 .faq-grid p {
-  color: #666;
+  color: rgba(7, 22, 41, 0.50);;
+  text-align: left;
 }
 
 /* Section with images and titles */
