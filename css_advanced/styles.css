@@ -316,6 +316,30 @@ blockquote p {
   margin-right: 5px;
 }
 
+span.most-span {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #071629;
+}
+
+span.tutorials-span {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #071629;
+}
+
+span.popular-span {
+  color: #C271FF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 /* Membership section styles */
 
 .free-span {
