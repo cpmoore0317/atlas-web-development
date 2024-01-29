@@ -59,6 +59,7 @@ header {
   line-height: normal;
   margin-left: 170px;
   margin-right: 170px;
+  padding-top: 30px;
 }
 
 header img {
@@ -299,11 +300,18 @@ blockquote {
   margin-bottom: 20px;
   background-color: #071629;
   color: #fff;
+  text-align: center;
 }
 
-.membership-card img {
-  width: 100%;
-  height: auto;
+.svg-container {
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100px; /* Adjust as needed */
+}
+
+.svg-container svg {
+  margin-left: 130px;
+  margin-top: 50px;
 }
 
 .membership-text {
