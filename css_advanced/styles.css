@@ -287,8 +287,15 @@ blockquote {
 
 .membership {
   background-color: #071629;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
+
+.membership h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 .membership-section {
   display: flex;
   justify-content: space-between;
